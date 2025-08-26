@@ -2,3 +2,7 @@ node_modules
 dist
 .vercel
 *.log
+node_modules
+dist
+.vercel
+*.log
