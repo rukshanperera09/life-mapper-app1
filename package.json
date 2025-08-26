@@ -1,6 +1,24 @@
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "vercel-build": "npm ci && npx vite build",
-  "preview": "vite preview --port 8080"
+{
+  "name": "life-mapper-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "vercel-build": "npm ci && npx vite build",
+    "preview": "vite preview --port 8080"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
 }
